@@ -6,7 +6,7 @@
 
 .container{
     border: 5px solid black;
-    width: 70%;
+    width: 95%;
     height: 70vh;
     margin: 15px auto;
     border-radius: 26px;
@@ -40,7 +40,7 @@
 .pipe-animation{
     right: -80px;
     width: 80px;
-    animation: pipe-animation 1.5s infinite linear;
+    animation: pipe-animation 2.5s infinite linear;
 }
 
 .mario{
@@ -50,7 +50,7 @@
 }
 
 .jump{
-    animation: jump 500ms ease-out;
+    animation: jump 800ms ease-out;
 }
 
 .fim{
@@ -103,16 +103,16 @@ div.score{
         bottom: 0;
     }
 
-    40%{
+    20%{
         bottom: 180px;
     }
 
     50%{
-        bottom: 180px;
+        bottom: 200px;
     }
 
     60%{
-        bottom: 180px;
+        bottom: 200px;
     }
 
     100%{

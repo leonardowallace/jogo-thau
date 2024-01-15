@@ -24,27 +24,29 @@ const iniciarJogo= () =>{
 }
 
 const reiniciarJogo = () => {
-    jogoEmAndamento = false;
-    ponto = 0;
-    score.innerHTML = `SCORE: ${ponto}`
-    //reset cano
-    pipe.style.left = ''
-    pipe.style.right = '-80'
+  jogoEmAndamento = false;
+  ponto = 0;
+  score.innerHTML = `SCORE: ${ponto}`
+  //reset cano
+  pipe.style.left = ''
+  pipe.style.right = '-80'
 
-    //reset mario
-    mario.src='./imagens/kitty.gif'
-    mario.style.width = '100px'
-    mario.style.bottom = '0'
-    mario.style.margin = ''
+  //reset mario
+  mario.src='./imagens/kitty.gif'
+  mario.style.width = '100px'
+  mario.style.bottom = '0'
+  mario.style.margin = ''
 
-    fim.style.display= 'none'
+  fim.style.display= 'none'
 
-    //reset musica
-    audioGameOver.pause()
-  audioGameOver.currentTime = 0;
+  //reset musica
+  audioGameOver.pause()
+audioGameOver.currentTime = 0;
 
-  window.open('https://leonardowallace.github.io/Futuro/', '_blank');
+audioStart.play()
+audioStart.currentTime = 0;
 }
+
 
 const jump = () => {
     if (jogoEmAndamento) {
