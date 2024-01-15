@@ -43,9 +43,6 @@ const reiniciarJogo = () => {
     audioGameOver.pause()
   audioGameOver.currentTime = 0;
 
-  audioStart.play()
-  audioStart.currentTime = 0;
-
   window.open('https://leonardowallace.github.io/Futuro/', '_blank');
 }
 
