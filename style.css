@@ -40,7 +40,7 @@
 .pipe-animation{
     right: -80px;
     width: 80px;
-    animation: pipe-animation 2.5s infinite linear;
+    animation: pipe-animation 2.3s infinite linear;
 }
 
 .mario{
